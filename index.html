@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/30792213b3.js" crossorigin="aronymous"></script>
+    <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <title>SheyRooms</title>
+</head>
+<body>
+   <section class="hero-section">
+    <div class="hero-text">
+        <h1>Welcome to SheyRooms</h1>
+        <p style="font-size: 20px;margin: 10px;">We provide rooms at a very good price along with 
+            great amenities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+     </div>
+   </section> 
+   <h1 class="about-heading">About Us</h1>
+   <section class="about-section">
+    <div class="about-us">
+        <p>Looking for a vacation to leave behind the hustle of everyday life and indulge in world-class
+            hospitality at exotic locations?Look no further than the leading & fastest growing hotel chain
+            of Southern India, Hotel SheyRooms.Your unwinding days with us will be the perfect blend of 
+            leisure, comfort, convenience and class.
+        </p>
+        <br>
+        <div class="know-button-container">
+        <button class="know-button">Know More...</button>
+        </div>
+    </div>
+    <div class="amenities">
+        <h3>Amenities we have:</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-bread-slice"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+    </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+<img src="3.jpg" alt="room-image">
+        </div>
+        <div class="room-list">
+            <h3>Single room</h3>
+            <p>Single-room occupancy (SRO) is a type of low-cost housing typically aimed at residents
+                 with low or minimal incomes, or single adults who like a minimalist lifestyle,
+                 who rent small, furnished single rooms with a bed, chair, and sometimes a small desk.</p>
+                 <br>
+            <h3>Family room</h3>
+            <p>A family room is an informal, all-purpose room in a house. 
+                The family room is designed to be a place where family and 
+                guests gather for group recreation like talking, reading, 
+                watching TV, and other family activities.</p>
+                <br>
+            <h3>Duplex room</h3>
+            <p>The term apartment is favoured in North America (although
+                in some Canadian cities, flat is used for a unit which is 
+                part of a house containing two or three units, typically one to a floor[1]). 
+                In the UK, the term apartment is more usual in professional real estate and 
+                architectural circles where otherwise the term flat is used commonly, 
+                but not exclusively, for an apartment on a single level (hence a "flat" apartment).</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill The Form For Booking Room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+            <label for="room-type">Select Room Type</label><br>
+            <select name="room-type" id="room-type" required>
+                <option value="" selected disabled>Select...</option>
+                <option value="single room">Single Room</option>
+                <option value="family room">Family Room</option>
+                <option value="duplex room">Duplex Room</option>
+            </select>
+            </div><br>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>
